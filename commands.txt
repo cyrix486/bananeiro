@@ -1,0 +1,5 @@
+   22  docker build -t hello-world-mio .
+   23  docker run -d -p 80:80 hello-world-mio
+   24  docker ps
+   26  curl http://localhost
+   27  history
